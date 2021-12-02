@@ -1,0 +1,246 @@
+/* NOTE: This code is for the index page */
+
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black;
+
+  }
+
+  li {
+   color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+
+
+
+
+
+.welcomeHeader{
+  background-color: rgb(16, 201, 195);
+  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+
+  .sideImg{
+    width: 150px;
+    height: 125px;
+    margin: 3px;
+    padding: 5px;
+    border: 3px;
+    border-style: solid;
+  }
+
+  .sideHeader{
+    font-size: 20px;
+    margin: -5px;
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+  }
+
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;}
+  }
+
+
+.homeImg{
+  width: 150px;
+  height: 150px;
+}
+
+.galleryImgs{
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.aboutFooter{
+  background-color: rgb(16,201,195);
+}
+
+
+
+
+  /* NOTE: this code is for the work page */
+
+  .blueClawimg{
+    width: 600px;
+    height: 450px;
+
+  }
+
+  .blueClawimgtwo{
+    width: 600px;
+    height: 450px;
+
+  }
+
+
+  .container-fluid-body{
+    background-color: rgb(16, 201, 195);
+
+  }
+
+
+
+  /* NOTE: this code is for education section */
+
+  .fthsLogo{
+    width: 500px;
+    height: 360px;
+    margin: 35px;
+    padding: -100px;
+  }
+
+.container-fluid-educationImg{
+  background-image: url("https://pbs.twimg.com/profile_images/3628042003/a4f5759907c43940b0d79c38568c64e1_400x400.jpeg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+  background-color: rgb(0, 0, 190);
+}
+
+
+
+  .container-fluid-workIntro{
+   background-image: url("https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+
+  }
+
+  .workHeader{
+  background-color: rgb(16, 201, 195);
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+.educationHeader{
+  text-align: center;
+  margin: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  background-color: rgb(16,201,195);
+  font-size: 100px;
+  font-style: oblique;
+  border-radius: 25px;
+}
+
+
+
+/* NOTE: This is about page */
+
+.aboutBody{
+  background-image: url("https://media.istockphoto.com/photos/moraine-lake-at-sunrise-banff-national-park-canada-picture-id471926619?k=20&m=471926619&s=612x612&w=0&h=bzclD8qFfZKyRapGMW_7cka4xkf-a6j_F0n77CHQKao=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid-aboutHeader{
+    background-image: url("https://media.istockphoto.com/photos/moraine-lake-at-sunrise-banff-national-park-canada-picture-id471926619?k=20&m=471926619&s=612x612&w=0&h=bzclD8qFfZKyRapGMW_7cka4xkf-a6j_F0n77CHQKao=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.aboutHeader{
+    font-size: 80px;
+    color: black;
+    background-color: rgb(16, 201, 195);
+  border-radius: 25px;
+  opacity: 0.6;
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+}
+
+.aboutP{
+  font-size: 50px;
+  color: black;
+  background-color: rgb(16, 201, 195);
+border-radius: 25px;
+opacity: 0.6;
+margin: 100px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.aboutPic{
+  width: 935px;
+  height: 450px;
+  margin-bottom: 8px;
+  margin-top: -4px;
+  background-size: cover;
+}
+
+.aboutList{
+  font-size: 30px;
+}
+
+.container-fluid-aboutBody{
+  background-color: rgb(16, 201, 195);
+  opacity: 0.6px;
+}
+
+.container-fluid-secondaboutFooter{
+  font-size: 80px;
+  color: black;
+  background-color: rgb(16, 201, 195);
+border-radius: 25px;
+opacity: 0.6;
+margin-top: 0px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 50px;
+margin-top: 50px;
+text-align: center;
+
+
+}
+
+.aboutImgs{
+  width: 250px;
+  height: 250px;
+}
+
+
+/* NOTE: This code is for interest tab */
+
+.interestIMG{
+width: 500px;
+height: 340px;
+border-width: 10px;
+border-style: solid;
+padding: -500px;
+}
